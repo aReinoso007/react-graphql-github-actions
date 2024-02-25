@@ -10,7 +10,7 @@ const CharactersPage: React.FC = () => {
 
   return (
     <>
-      <h1>Characters page</h1>
+      <h1>Characters page cambio pepa para prueba</h1>
       <Row>
         {data.characters.results.map((character: any, index: any) => {
           return (
