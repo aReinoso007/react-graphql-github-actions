@@ -7,7 +7,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import { BrowserRouter } from "react-router-dom";
 
 const rickAndMortyAPI: string ='https://rickandmortyapi.com/graphql';
-const mutationsAPI: string = 'https://graphqlzero.almansi.me/api';
+//const mutationsAPI: string = 'https://graphqlzero.almansi.me/api';
 
 const client = new ApolloClient({
   uri: rickAndMortyAPI,
