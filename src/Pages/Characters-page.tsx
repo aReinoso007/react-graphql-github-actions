@@ -10,7 +10,7 @@ const CharactersPage: React.FC = () => {
 
   return (
     <>
-      <h1>Characters page, change that fails</h1>
+      <h1>Characters page, change dont fail</h1>
       <Row>
         {data.characters.results.map((character: any, index: any) => {
           return (
