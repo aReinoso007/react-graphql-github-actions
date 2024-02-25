@@ -102,3 +102,9 @@ jobs:
       - name: Deploy Project Artifacts to Vercel
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
 ```
+
+
+### Install
+```bash
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+```
