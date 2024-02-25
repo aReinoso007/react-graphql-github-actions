@@ -12,11 +12,6 @@ const SearchComponent: React.FC = () => {
       variables: { name },
     }
   );
-
-  console.log({
-    data, loading, error, called
-  });
-
   const search = () =>{
     getLocations();
   }

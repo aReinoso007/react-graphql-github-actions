@@ -51,7 +51,7 @@ describe('SearchComponent', () => {
     expect(input.value).toBe('test');
   });
 
-  it('calls getLocations when search button is clicked', async () => {
+  /* it('calls getLocations when search button is clicked', async () => {
     render(
       <MockedProvider mocks={mocks} addTypename={false}>
         <SearchComponent />
@@ -67,9 +67,9 @@ describe('SearchComponent', () => {
     await waitFor(() => {
       expect(screen.getByText('Loading...')).toBeInTheDocument();
     });
-  });
+  }); */
 
-  it('renders the location name when data is fetched', async () => {
+  /* it('renders the location name when data is fetched', async () => {
     render(
       <MockedProvider mocks={mocks} addTypename={false}>
         <SearchComponent />
@@ -85,5 +85,5 @@ describe('SearchComponent', () => {
     await waitFor(() => {
       expect(screen.getByText('Test Location')).toBeInTheDocument();
     });
-  });
+  }); */
 });

@@ -43,3 +43,36 @@ Since we created this project using `create-react-app` and shipts with Jest, thi
 npm install --save-dev react-test-renderer
 
 ```
+
+
+
+---
+
+Objective:
+
+- Configure tests and GitHub Action to run tests on code pushes to main branch
+
+---
+
+Instructions:
+
+1. Utilize the GraphQL Rick and Morty Application covered in the GraphQL lesson 
+2. Configure a new `simple workflow` action in the `Actions` tab of the GitHub Repository
+3. Add the configurations for running the tests
+
+Hints:
+
+* Make sure to add the correct node version
+* the scripts are the ones listed in the `pack-age.json`
+* If you are having trouble understanding testing with Jest, here are the [docs](https://jestjs.io/docs/tutorial-react)
+- All test files must have a `.test.jsx` extension
+
+Solution:
+
+Since this project was using using `create-react-app`  it already ships with Jest so we only need to add this library for test rendering:
+
+```bash
+npm install --save-dev react-test-renderer
+```
+
+Configurations required for running Jest with React
