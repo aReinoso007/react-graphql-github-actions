@@ -108,3 +108,8 @@ jobs:
 ```bash
 npm install --save-dev @babel/plugin-proposal-private-property-in-object
 ```
+
+## Install Vercel CLI
+```bash
+npm i -g vercel
+```
