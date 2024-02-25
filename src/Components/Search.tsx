@@ -6,7 +6,7 @@ import { GET_CHARACTERS_LOCATIONS } from "../queries/Queries";
 const SearchComponent: React.FC = () => {
   const [name, setName] = useState<string>("");
 
-  const [getLocations, { data, loading, error, called }] = useLazyQuery(
+  const [getLocations, { data, loading, error }] = useLazyQuery(
     GET_CHARACTERS_LOCATIONS,
     {
       variables: { name },
